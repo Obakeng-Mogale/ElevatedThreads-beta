@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+body {
+    color: white !important;
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700 !important;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.text-color-black {
+    color: black !important;
+}
+
+.col-card-img {
+    height: auto;
+    width: 50%;
+}
+
+.about-cards {
+    padding: 7% 5%;
+    text-align: left;
+}
+
+.horizontal-scrollable {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.horizontal-scrollable>.column-card {
+    display: inline-block;
+    float: none;
+
+
+}
+
+.horizontal-scrollable::-webkit-scrollbar {
+    display: none;
+}
+
+/* Decorations */
+
+.column-card {
+
+    height: 200;
+    width: 30rem;
+    font-size: 24px;
+
+    padding-top: 18px;
+}
+
+/* 
+.container{
+    padding: 7% 15% ; 
+} */
+
+/* .home-img{
+    width: 10px;
+    
+} */
+/* .box{
+    width: 70%;
+} */
+.purple{
+    color: blueviolet;
+}
+
+.img-fluid.brand {
+    height: 50px !important;
+}
+
+
+.landing-text {
+    position: absolute;
+    left: 3%;
+    top: 30%;
+    word-spacing: 1rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.landing-text>h1 {
+    font-size: 7rem;
+}
+.text-size-2{
+    font-size: 4rem;
+}
+
+
+/* mobile screen condition */
+@media screen and (max-width:768px) {
+    .landing-text {
+        position: relative;
+        text-align: center;
+        left: 0;
+        word-spacing: 0;
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .landing-text>h1 {
+        font-size: 2rem;
+    }
+
+}
